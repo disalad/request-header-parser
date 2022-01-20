@@ -5,6 +5,7 @@ require('dotenv').config();
 
 // Routes imports
 const whoamiRoute = require('./api/routes/whoami.routes');
+const indexRoute = require('./api/routes/index.routes');
 
 // Middleware
 app.use(
@@ -15,6 +16,8 @@ app.use(
 );
 
 // Routes
+app.use('/', indexRoute);
+
 app.use('/api', whoamiRoute);
 
 app.use((req, res, next) => {
