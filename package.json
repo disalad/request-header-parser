@@ -1,0 +1,27 @@
+{
+  "name": "request-header-parser",
+  "version": "1.0.0",
+  "description": "An API to parse request header",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disaladamsas/request-header-parser.git"
+  },
+  "author": "Disala Damsas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/disaladamsas/request-header-parser/issues"
+  },
+  "homepage": "https://github.com/disaladamsas/request-header-parser#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
