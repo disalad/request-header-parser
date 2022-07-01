@@ -54,6 +54,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Disala - damsasdisala@gmail.com
-
 Project Link: [https://github.com/disalad/request-header-parser](https://github.com/disalad/request-header-parser)
